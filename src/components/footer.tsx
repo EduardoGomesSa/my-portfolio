@@ -1,5 +1,6 @@
 export function Footer() {
+    var currentYar = new Date().getFullYear()
     return (
-        <p>Eduardo Sa - { Date.now() }</p>
+        <p>&copy;Eduardo Sa - { currentYar }</p>
     );
 }
