@@ -5,10 +5,12 @@ export function Header() {
                 Eduardo Sá
             </div>
             <nav className="flex gap-4 ml-auto">
-                <a href="#" className="text-blue-500 hover:text-blue-700">Link 1</a>
-                <a href="#" className="text-blue-500 hover:text-blue-700">Link 2</a>
-                <a href="#" className="text-blue-500 hover:text-blue-700">Link 3</a>
-                <a href="#" className="text-blue-500 hover:text-blue-700">Link 4</a>
+                <a href="#" className="text-white hover:text-blue-500">Home</a>
+                <a href="#" className="text-white hover:text-blue-500">About</a>
+                <a href="#" className="text-white hover:text-blue-500">Projects</a>
+                <a href="#" className="text-white hover:text-blue-500">Contacts</a>
+                <a href="#" className="text-white hover:text-blue-500">PT</a>
+                <a href="#" className="text-white hover:text-blue-500">Modo_Noturno</a>
             </nav>
         </header>
     );
