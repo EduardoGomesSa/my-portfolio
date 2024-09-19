@@ -2,7 +2,7 @@ import { SunIcon } from "@heroicons/react/16/solid";
 
 export function Header() {
     return (
-        <header className="flex justify-between items-center p-4 h-[100px] fixed top-0 left-0 right-0 border-b border-black shadow-lg">
+        <header className="flex justify-between items-center p-4 h-[100px] bg-[#171023] fixed top-0 left-0 right-0 border-b border-black shadow-lg">
             <div className="text-white">
                 Eduardo Sá
             </div>
