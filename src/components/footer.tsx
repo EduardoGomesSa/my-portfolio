@@ -1,3 +1,5 @@
+import { ArrowLeftIcon } from "@heroicons/react/16/solid";
+
 export function Footer() {
     var currentYar = new Date().getFullYear()
     return (
@@ -10,7 +12,9 @@ export function Footer() {
                 <a href="#" className="text-white hover:text-blue-500">GitHub</a>
                 <a href="#" className="text-white hover:text-blue-500">Linkedln</a>
                 <a href="#" className="text-white hover:text-blue-500">Instagram</a>
-                <a href="#" className="text-white hover:text-blue-500">Voltar</a>
+                <a href="#" className="text-white hover:text-blue-500">
+                    <ArrowLeftIcon className="h-6 w-6 text-white rotate-90" />
+                </a>
             </nav>
         </footer>
         
