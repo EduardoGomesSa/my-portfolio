@@ -1,3 +1,5 @@
+import { SunIcon } from "@heroicons/react/16/solid";
+
 export function Header() {
     return (
         <header className="flex justify-between items-center p-4 h-[100px] fixed top-0 left-0 right-0 border-b border-black shadow-lg">
@@ -10,7 +12,7 @@ export function Header() {
                 <a href="#" className="text-white hover:text-blue-500">Projects</a>
                 <a href="#" className="text-white hover:text-blue-500">Contacts</a>
                 <a href="#" className="text-white hover:text-blue-500">PT</a>
-                <a href="#" className="text-white hover:text-blue-500">Modo_Noturno</a>
+                <a href="#" className="text-white hover:text-blue-500"><SunIcon className="h-6 w-6 text-white" /></a>
             </nav>
         </header>
     );
