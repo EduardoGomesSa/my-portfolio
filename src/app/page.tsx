@@ -1,5 +1,6 @@
 import { About } from "@/components/about";
 import { Apresentation } from "@/components/apresentation";
+import { ContactMe } from "@/components/contact_me";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Projects } from "@/components/projects";
@@ -11,7 +12,7 @@ export default function Home() {
       <Apresentation />
       <About />
       <Projects />
-      <h1>Aqui vai ficar as paradas</h1>
+      <ContactMe />
       <Footer />
     </main>
   );
