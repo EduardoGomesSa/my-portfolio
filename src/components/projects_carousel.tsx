@@ -1,8 +1,8 @@
+// components/ProjectsCarousel.tsx
 "use client"; // Certifica que o componente só será renderizado no cliente
 
-import { Swiper, SwiperSlide } from 'swiper/react'; // Importa os componentes do Swiper
-import 'swiper/swiper-bundle.css'; // Importa os estilos do Swiper
-import { Autoplay, Pagination } from 'swiper'; // Importa os módulos necessários
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
 
 export function ProjectsCarousel() {
     const projects = [
@@ -15,14 +15,10 @@ export function ProjectsCarousel() {
 
     return (
         <Swiper
-            modules={[Autoplay, Pagination]} // Registra os módulos que você está usando
             spaceBetween={20}
             slidesPerView={3}
             loop={true}
-            autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-            }}
+            autoplay={{ delay: 3000 }}
             pagination={{ clickable: true }}
             className="w-full max-w-4xl"
         >
