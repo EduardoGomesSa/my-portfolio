@@ -31,7 +31,7 @@ export function ContactMe() {
                 
                 {/* Parte esquerda - Imagem */}
                 <div className="w-1/2 h-full bg-cover bg-center rounded-lg">
-                    <img src="/assets/nerd.png" alt="Imagem ilustrativa do sobre" />
+                <img src="/assets/nerd.png" alt="Imagem ilustrativa do sobre" className="w-32 h-32 rounded-full object-cover" />
                 </div>
 
                 {/* Parte direita - Formulário */}
