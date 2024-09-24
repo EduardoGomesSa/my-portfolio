@@ -33,12 +33,14 @@ export function ContactMe() {
                 <div className="w-1/2 h-full bg-cover bg-center rounded-lg">
                     <img src="/assets/nerd.png" alt="Imagem ilustrativa do sobre" className="w-32 h-32 rounded-full object-cover" />
 
-                    <p>Contato</p>
-                    <p>Gostou do meu perfil? Vamos trabalhar juntos!</p>
-                    <p>Estou sempre disponível para conversar. Me envie um e-mail para eduardogomes.dev@gmail.com
+                    <p className="text-[#7DFFAF] pb-1 pt-4">Contato</p>
+                    <p className="pb-4">Gostou do meu perfil? Vamos trabalhar juntos!</p>
+                    <p className="pb-4">Estou sempre disponível para conversar. Me envie um e-mail para eduardogomes.dev@gmail.com
                         ou me mande uma mensagem nas redes sociais.
                     </p>
-                    <p>Icons de redes sociais</p>
+                    <p>
+                        Icons redes sociais
+                    </p>
                 </div>
 
                 {/* Parte direita - Formulário */}
