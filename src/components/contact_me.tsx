@@ -28,10 +28,17 @@ export function ContactMe() {
         <div className="w-full h-full flex justify-center items-center">
             {/* Container principal */}
             <div className="w-[90vw] bg-white bg-opacity-10 p-8 rounded-lg shadow-lg mx-auto mt-10 flex">
-                
+
                 {/* Parte esquerda - Imagem */}
                 <div className="w-1/2 h-full bg-cover bg-center rounded-lg">
-                <img src="/assets/nerd.png" alt="Imagem ilustrativa do sobre" className="w-32 h-32 rounded-full object-cover" />
+                    <img src="/assets/nerd.png" alt="Imagem ilustrativa do sobre" className="w-32 h-32 rounded-full object-cover" />
+
+                    <p>Contato</p>
+                    <p>Gostou do meu perfil? Vamos trabalhar juntos!</p>
+                    <p>Estou sempre disponível para conversar. Me envie um e-mail para eduardogomes.dev@gmail.com
+                        ou me mande uma mensagem nas redes sociais.
+                    </p>
+                    <p>Icons de redes sociais</p>
                 </div>
 
                 {/* Parte direita - Formulário */}
