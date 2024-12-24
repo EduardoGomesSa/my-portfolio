@@ -24,7 +24,7 @@ export function ProjectsCarousel() {
         >
             {projects.map((project, index) => (
                 <SwiperSlide key={index}>
-                    <div className="bg-white p-6 shadow-md rounded-lg h-80 flex flex-col justify-center items-center">
+                    <div className="bg-white bg-opacity-10 p-6 shadow-md rounded-lg h-80 flex flex-col justify-center items-center">
                         <h3 className="text-lg font-semibold mb-2 text-black">{project.title}</h3>
                         <p className="text-black">{project.description}</p>
                     </div>
