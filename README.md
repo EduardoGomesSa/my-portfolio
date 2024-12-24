@@ -2,7 +2,7 @@
 <p>Este projeto tem como objetivo divulgar meu trabalho para recrutadores e empresas, exibindo alguns códigos que já fiz.</p>
 
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
