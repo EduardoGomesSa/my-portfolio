@@ -15,16 +15,16 @@ export function ProjectsCarousel() {
 
     return (
         <Swiper
-            spaceBetween={20}
+            spaceBetween={40}
             slidesPerView={3}
             loop={true}
             autoplay={{ delay: 3000 }}
             pagination={{ clickable: true }}
-            className="w-full max-w-4xl"
+            className="w-full max-w-7xl"
         >
             {projects.map((project, index) => (
                 <SwiperSlide key={index}>
-                    <div className="bg-white p-6 shadow-md rounded-lg h-40 flex flex-col justify-center items-center">
+                    <div className="bg-white p-6 shadow-md rounded-lg h-80 flex flex-col justify-center items-center">
                         <h3 className="text-lg font-semibold mb-2 text-black">{project.title}</h3>
                         <p className="text-black">{project.description}</p>
                     </div>
