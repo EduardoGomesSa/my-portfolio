@@ -3,8 +3,20 @@
 
 
 
-Primeiro, execute o servidor de desenvolvimento:
+## Configurando o ambiente:
 
+### instale as dependências
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### Execute o servidor
 ```bash
 npm run dev
 # or
@@ -14,3 +26,6 @@ pnpm dev
 # or
 bun dev
 ```
+
+#
+🚧 Projeto em desenvolvimento 🚧
